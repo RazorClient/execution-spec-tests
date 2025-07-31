@@ -18,6 +18,7 @@ from pydantic import (
     model_validator,
 )
 from trie import HexaryTrie
+from Pureth.ssz.transaction import Transaction as SszTransaction
 
 from ethereum_test_base_types import (
     AccessList,

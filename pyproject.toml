@@ -50,6 +50,7 @@ dependencies = [
     "eth-abi>=5.2.0",
     "joblib>=1.4.2",
     "ckzg>=2.1.1",
+    "remerkleable @ git+https://github.com/ethereum/remerkleable@92dcbb6f0507035d6875986fc263a05fec19d473",
 ]
 
 [project.urls]
